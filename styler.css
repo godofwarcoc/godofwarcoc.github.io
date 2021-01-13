@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(167, 167, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    position: fixed;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.subheader{
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(114, 114, 114);
+}
+
+.main{
+    margin-top: 120px;
+}
+.update-time{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 23px;
+}
+.update{
+    font-size: 20px;
+}
+.update a{
+    text-decoration: none;
+    color: rgb(177, 74, 0);
+    cursor: pointer;
+}
+.update a:hover{
+    transition: 400ms;
+    color: rgba(0, 0, 139, 0.699);
+    margin-left: 10px;
+}
+.table-of-elements-title{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 23px;
+    margin-top: 30px;
+    color: white;
+}
+.table-of-elements{
+    font-size: 17px;
+    margin-left: 15px;
+}
+.table-of-elements a{
+    text-decoration: none;
+    color: darkblue;
+    cursor: pointer;
+}
+.table-of-elements a:hover{
+    transition: 400ms;
+    color: white;
+    margin-left: 5px;
+}
+.uni{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.507);
+}
+.uni a{
+    text-decoration: none;
+    color: rgb(2, 90, 173);
+}
+.uni a:hover{
+    color:rgb(5, 117, 223) ;
+    transition: 400ms;
+}
+.uni li{
+    margin-top: 2px;
+}
+.uni-title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+    color: rgb(44, 44, 44);
+}
+@media screen and (max-width: 600px){
+    .header{
+        font-size: 18px;
+    }
+    .subheader{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .main{
+        margin-top: 80px;
+    }
+    .update-time{
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .update{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .table-of-elements-title{
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .table-of-elements{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .uni{
+        width: 90%;
+        padding: 20px;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .uni li{
+        margin-top: 2px;
+    }
+    .uni-title{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
