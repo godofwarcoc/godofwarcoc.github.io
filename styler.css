@@ -43,6 +43,11 @@ body{
     color: rgba(0, 0, 139, 0.699);
     margin-left: 10px;
 }
+.notice{
+    font-weight: bold;
+    color: red;
+    margin: 10px 0 10px 20px;
+}
 .table-of-elements-title{
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -112,6 +117,9 @@ body{
     .update{
         font-size: 15px;
         font-weight: bold;
+    }
+    .notice{
+        font-size: 12px;
     }
     .table-of-elements-title{
         font-size: 15px;
