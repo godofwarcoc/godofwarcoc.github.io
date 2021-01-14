@@ -52,6 +52,7 @@ body{
 }
 #green{
     background-color: rgba(0, 255, 0, 0.253);
+    margin-top: 150px;
 }
 #blue{
     background-color: rgba(0, 0, 255, 0.24);
