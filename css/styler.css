@@ -33,12 +33,12 @@ body{
 .update{
     font-size: 20px;
 }
-.update a{
+.update a ,.notice a{
     text-decoration: none;
     color: rgb(177, 74, 0);
     cursor: pointer;
 }
-.update a:hover{
+.update a:hover , .notice a:hover{
     transition: 400ms;
     color: rgba(0, 0, 139, 0.699);
     margin-left: 10px;
