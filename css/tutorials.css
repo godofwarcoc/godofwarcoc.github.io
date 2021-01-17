@@ -1,0 +1,29 @@
+.brief a{
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    transition: 500ms;
+}
+.brief a:hover{
+    color: rgb(0, 64, 184);
+    cursor: pointer;
+    margin-left: 10px;
+}
+iframe{
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 60%;
+    height: 300px;
+}
+@media screen and (max-width: 600px){
+    .brief a:hover{
+        margin-left: 5px;
+    }
+    iframe{
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
