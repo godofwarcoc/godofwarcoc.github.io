@@ -1,0 +1,51 @@
+.ina-10{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.322);
+    padding: 20px;
+    border-radius: 8px;
+}
+.ina-title{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: bold;
+    padding: 2px 0 10px 0;
+    font-size: 20px;
+}
+.ina-time{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(61, 58, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+.bold{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+    .ina-10{
+        width: 90%;    
+    }
+    .ina-title{
+        font-size: 16px;
+    }
+    .ina-time{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .bold{
+        font-size: 14px;
+    }
+    .ina-10 td{
+        font-size: 13px;
+    }
+}
