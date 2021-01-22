@@ -50,6 +50,9 @@ body{
 .status-win{
     color: rgb(0, 167, 0);
 }
+.status-lost{
+    color: red;
+}
 #green{
     background-color: rgba(0, 255, 0, 0.253);
     margin-top: 150px;
