@@ -15,3 +15,38 @@
 .brief li{
     margin: 8px 0 8px 0;
 }
+.superior{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.658);
+}
+.superior a{
+    text-decoration: none;
+    color: red;
+    transition: 400ms;
+    font-weight: bold;
+}
+.superior a:hover{
+    color: rgba(255, 0, 0, 0.829);
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 600px){
+    .superior{
+        width: 90%;
+    }
+    .bold{
+        font-size: 14px;
+    }
+    .superior td{
+        font-size: 14px;
+    }
+}

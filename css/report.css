@@ -1,0 +1,55 @@
+.rules-of-report{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 60%;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.479);
+}
+.report{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.report button{
+    width: 100%;
+    background-color: rgb(0, 96, 221);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.425);
+}
+.report button:hover{
+    background-color: black;
+    color: white;
+    transition: 500ms;
+}
+.report button:focus{
+    outline: none;
+    border-bottom: 5px solid rgb(151, 0, 221);
+    transition: 500ms;
+}
+
+@media screen and (max-width: 600px){
+    .rules-of-report{
+        width: 80%;
+        font-size: 14px;
+    }
+    .rules-of-report li{
+        font-size: 13px;
+    }
+    .report{
+        width: 40%;
+        margin-top: 30px;
+    }
+    .report button{
+        padding: 10px;
+        font-weight: normal;
+    }
+}
