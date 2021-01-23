@@ -7,6 +7,7 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.322);
     padding: 20px;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 .ina-title{
     text-align: center;
@@ -27,9 +28,25 @@
     font-weight: bold;
     font-size: 18px;
 }
+.ina-kick{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
 .bold{
     font-weight: bold;
 }
+.consider{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* Timer */
+
+
+
 
 @media screen and (max-width: 600px){
     .ina-10{
